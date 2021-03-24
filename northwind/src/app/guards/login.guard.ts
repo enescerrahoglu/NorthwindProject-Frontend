@@ -24,5 +24,6 @@ export class LoginGuard implements CanActivate {
         this.toastrService.info("Sisteme giriş yapmalısınız!")
         return false;
       }
+      
   }
 }
